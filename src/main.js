@@ -1,8 +1,25 @@
-import Vue from 'vue'
-import App from './App.vue'
+/*
+=========================================================
+* Vuetify Material Dashboard 2 PRO - v3.0.0
+=========================================================
 
-Vue.config.productionTip = false
+* Product Page:  https://www.creative-tim.com/product/vuetify-material-dashboard-pro
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+
+Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
+import vuetify from "./plugins/vuetify";
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  router,
+  vuetify,
+  render: (h) => h(App),
+}).$mount("#app");
