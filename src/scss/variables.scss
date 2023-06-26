@@ -30,17 +30,16 @@
 }
 
 $spacer:0;
-$v-navigation-drawer-mini-max-width:52px;
-$v-navigation-drawer-max-width:255px;
 $body-font-family: 'Noto Sans KR',
 'sans-serif';
 $font-size-root:10px;
 $font-weight-bold:500;
 $font-weight-bolder:700;
+$v-list-item-title-color:#000;
 $line-height-md:0;
 $icon-size:20px;
 $toolbar-content-padding-y:0;
-$toolbar-content-padding-x:24px;
+$toolbar-content-padding-x:0;
 $breadcrumbs-margin:0;
 $breadcrumbs-padding:10px;
 $breadcrumbs-even-child-padding:8px;
@@ -50,7 +49,7 @@ $input-icon-height:20px;
 $input-slot-margin-bottom:0;
 $input-top-spacing:0;
 $messages-min-height:0;
-$text-field-details-min-height:12px;
+$text-field-details-min-height:8px;
 $text-field-active-label-height:0;
 $text-field-details-margin-bottom:0;
 $input-max-height:50px;
@@ -59,7 +58,9 @@ $text-field-outlined-fieldset-border:1px solid #399FC7;
 $select-outlined-dense-selections-padding-top:7px 0;
 $list-item-dense-title-font-size:1.4rem;
 $list-item-dense-title-line-height:inherit;
-$material-light: ('text-fields': ('outlined': #C7D1E3,
+$material-light: ('text-fields': (
+  'outlined': #C7D1E3,
+  'outlined-disabled':#C7D1E3,
     'outlined-hover': #399FC7,
     'outlined-focused': #399FC7,
   ),
@@ -72,7 +73,3 @@ $data-table-regular-row-height:45px;
 $data-table-regular-row-font-size:1.4rem;
 $pagination-item-font-size:1.4rem;
 $pagination-item-padding:0;
-$list-item-title-font-size:1.4rem;
-$v-list-item-mini-font-size:1.4rem;
-$navbar-vertical-hover-bg-color:none;
-$radio-margin-right:0;

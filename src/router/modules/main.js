@@ -9,7 +9,10 @@ export default [
             {
                 path: '/main',
                 name: 'Main',
-                component: Main
+            component: Main,
+                meta: {
+                    groupName: "HOME",
+                },
             },
         ]
     },

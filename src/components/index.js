@@ -1,4 +1,6 @@
 import Drawer from "Drawer";
+import AppBar from "AppBar";
+import AppBarAuth from "AppBarAuth";
 import HeaderTopDashboard from "HeaderTopDashboard";
 import MediaComment from "MediaComment";
 import ContentFooter from "Footer";

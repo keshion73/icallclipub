@@ -21,7 +21,6 @@
 </template>
 
 <script>
-  // import from "vuetify/VTextField/VTextField.sass";
   export default {
     props: {
       title: String,
@@ -71,7 +70,6 @@
     .modal-mes {
       display: flex;
       align-items: center;
-      color: #000;
 
       img {
         margin-right: 20px;
@@ -89,23 +87,13 @@
     .modal-btn {
       .v-btn {
         padding: 0 45px;
+        background: #FFFFFF;
+        color: #00648A;
+        border: 1px solid #00648A;
 
         +.v-btn {
           margin-left: 12px;
         }
-      }
-    }
-
-    .v-text-field {
-      caret-color: auto !important;
-      margin-top: 8px;
-
-      input {
-        color: #000 !important
-      }
-
-      .v-input__slot fieldset {
-        color: #C7D1E3 !important;
       }
     }
   }
