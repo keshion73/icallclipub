@@ -6,7 +6,7 @@
           <img src="@/assets/images/common/icon-home.svg" alt="">
         </v-breadcrumbs-item>
         <li>
-          <v-icon color="#399FC7">fa-chevron-right</v-icon>
+          <v-icon color="#fff">fa-chevron-right</v-icon>
         </li>
         <v-breadcrumbs-item>
           {{ $route.meta.groupName }}

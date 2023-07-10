@@ -169,14 +169,18 @@ span {
 }
 
 .sub-header {
-  background: #C8E5F0;
+  background: #E86299;
 
   .container {
     justify-content: space-between;
   }
+  .v-breadcrumbs li{
+    color:#fff;
+  }
 
   .sub-hd-info {
     align-items: center;
+    color:#fff;
 
     div+div {
       margin-left: 16px;
@@ -218,13 +222,13 @@ span {
     }
 
     .mark {
-      border: 1px solid #399FC7;
+      border: 1px solid #fff;
       border-radius: 10px;
       display: inline-block;
       width: 48px;
       height: 20px;
       line-height: 18px;
-      color: #399FC7;
+      color: #fff;
       text-align: center;
       font-weight: 500;
       font-size: 1rem;
@@ -364,6 +368,64 @@ span {
     }
   }
 }
+.user-cont {
+    padding: 30px 0;
+    text-align: center;
+    .tit {
+      font-size: 2.2rem;
+      font-weight: 700 !important;
+      margin-bottom: 24px;
+    }
+    .v-form {
+    width: 300px;
+    margin: 0 auto;
+
+    h4 {
+      font-weight: 700;
+      margin-bottom: 8px;
+      line-height: 1;
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .v-btn {
+      width:calc(50% - 10px);
+      margin-top: 20px;
+      + .v-btn{
+        margin-left: 20px;
+      }
+    }
+    .join-chk{
+      margin-top: 20px;
+      .v-input + .v-input{
+        margin-top: 10px;
+      }
+      .d-flex{
+        align-items: center;
+        >span{
+        color: #00648A;
+        font-size: 1.2rem;
+        text-decoration-line: underline;
+        margin-left: 6px;
+        cursor: pointer;
+      }
+      }
+    }
+  }
+  }
+   .pri-modal{
+      padding: 10px 20px;
+      >.pri-tit{
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        .v-btn{
+          background: none !important;
+          min-width: auto !important;
+          padding: 0 !important;
+        }
+      }
+    }
 
 @include pc {
   .container {
@@ -436,7 +498,7 @@ span {
       width: 640px;
       display: flex;
       text-align: center;
-      margin-left: 140px;
+      margin-left: 100px;
     }
 
     .v-list {
@@ -545,6 +607,7 @@ span {
         flex-direction: column;
       }
       .user{
+        color:#fff;
         order:-1;
             margin-bottom: 20px;
         justify-content: space-between;
